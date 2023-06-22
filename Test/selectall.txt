@@ -1,0 +1,281 @@
+[
+  [
+    {
+      id: 1,
+      title: 'How to create a table in SQL',
+      content: 'In this blog post, I will show you how to create a table in SQL using the CREATE TABLE statement. You will learn how to define columns, data types, constraints, and other table properties.',      
+      thumbsup: 12,
+      created_at: 2023-06-22T07:49:13.000Z
+    },
+    {
+      id: 2,
+      title: 'Why arrays are not a good choice for storing relational data',
+      content: 'In this blog post, I will explain why arrays are not a good choice for storing relational 
+data in SQL. You will learn about the drawbacks of arrays and the benefits of using separate tables and foreign keys.',
+      thumbsup: 8,
+      created_at: 2023-06-22T07:49:13.000Z
+    },
+    {
+      id: 3,
+      title: 'How to use array functions in SQL',
+      content: 'In this blog post, I will demonstrate how to use array functions in SQL to manipulate and 
+query array values. You will learn how to create, access, modify, and search arrays using various functions and operators.',
+      thumbsup: 5,
+      created_at: 2023-06-22T07:49:13.000Z
+    }
+  ],
+  [
+    ColumnDefinition {
+      _buf: <Buffer 01 00 00 01 05 28 00 00 02 03 64 65 66 06 62 6c 6f 67 64 62 04 62 6c 6f 67 04 62 6c 6f 67 02 69 64 02 69 64 0c 3f 00 0b 00 00 00 03 03 42 00 00 00 2e ... 1056 more bytes>,
+      _clientEncoding: 'utf8',
+      _catalogLength: 3,
+      _catalogStart: 10,
+      _schemaLength: 6,
+      _schemaStart: 14,
+      _tableLength: 4,
+      _tableStart: 21,
+      _orgTableLength: 4,
+      _orgTableStart: 26,
+      _orgNameLength: 2,
+      _orgNameStart: 34,
+      characterSet: 63,
+      encoding: 'binary',
+      name: 'id',
+      columnLength: 11,
+      columnType: 3,
+      type: 3,
+      flags: 16899,
+      decimals: 0
+    },
+    ColumnDefinition {
+      _buf: <Buffer 01 00 00 01 05 28 00 00 02 03 64 65 66 06 62 6c 6f 67 64 62 04 62 6c 6f 67 04 62 6c 6f 67 02 69 64 02 69 64 0c 3f 00 0b 00 00 00 03 03 42 00 00 00 2e ... 1056 more bytes>,
+      _clientEncoding: 'utf8',
+      _catalogLength: 3,
+      _catalogStart: 54,
+      _schemaLength: 6,
+      _schemaStart: 58,
+      _tableLength: 4,
+      _tableStart: 65,
+      _orgTableLength: 4,
+      _orgTableStart: 70,
+      _orgNameLength: 5,
+      _orgNameStart: 81,
+      characterSet: 224,
+      encoding: 'utf8',
+      name: 'title',
+      columnLength: 400,
+      columnType: 253,
+      type: 253,
+      flags: 4097,
+      decimals: 0
+    },
+    ColumnDefinition {
+      _buf: <Buffer 01 00 00 01 05 28 00 00 02 03 64 65 66 06 62 6c 6f 67 64 62 04 62 6c 6f 67 04 62 6c 6f 67 02 69 64 02 69 64 0c 3f 00 0b 00 00 00 03 03 42 00 00 00 2e ... 1056 more bytes>,
+      _clientEncoding: 'utf8',
+      _catalogLength: 3,
+      _catalogStart: 104,
+      _schemaLength: 6,
+      _schemaStart: 108,
+      _tableLength: 4,
+      _tableStart: 115,
+      _orgTableLength: 4,
+      _orgTableStart: 120,
+      _orgNameLength: 7,
+      _orgNameStart: 133,
+      characterSet: 224,
+      encoding: 'utf8',
+      name: 'content',
+      columnLength: 10000,
+      columnType: 253,
+      type: 253,
+      flags: 4097,
+      decimals: 0
+    },
+    ColumnDefinition {
+      _buf: <Buffer 01 00 00 01 05 28 00 00 02 03 64 65 66 06 62 6c 6f 67 64 62 04 62 6c 6f 67 04 62 6c 6f 67 02 69 64 02 69 64 0c 3f 00 0b 00 00 00 03 03 42 00 00 00 2e ... 1056 more bytes>,
+      _clientEncoding: 'utf8',
+      _catalogLength: 3,
+      _catalogStart: 158,
+      _schemaLength: 6,
+      _schemaStart: 162,
+      _tableLength: 4,
+      _tableStart: 169,
+      _orgTableLength: 4,
+      _orgTableStart: 174,
+      _orgNameLength: 8,
+      _orgNameStart: 188,
+      characterSet: 63,
+      encoding: 'binary',
+      name: 'thumbsup',
+      columnLength: 11,
+      columnType: 3,
+      type: 3,
+      flags: 0,
+      decimals: 0
+    },
+    ColumnDefinition {
+      _buf: <Buffer 01 00 00 01 05 28 00 00 02 03 64 65 66 06 62 6c 6f 67 64 62 04 62 6c 6f 67 04 62 6c 6f 67 02 69 64 02 69 64 0c 3f 00 0b 00 00 00 03 03 42 00 00 00 2e ... 1056 more bytes>,
+      _clientEncoding: 'utf8',
+      _catalogLength: 3,
+      _catalogStart: 214,
+      _schemaLength: 6,
+      _schemaStart: 218,
+      _tableLength: 4,
+      _tableStart: 225,
+      _orgTableLength: 4,
+      _orgTableStart: 230,
+      _orgNameLength: 10,
+      characterSet: 63,
+      encoding: 'binary',
+      columnLength: 19,
+      columnType: 7,
+      type: 7,
+      flags: 1152,
+      decimals: 0
+    }
+  ]
+]
+PS C:\Users\Lipu\OneDrive\Desktop\blog-ernSql> ^C
+PS C:\Users\Lipu\OneDrive\Desktop\blog-ernSql> node .\Config\database.js
+Promise { <pending> }
+PS C:\Users\Lipu\OneDrive\Desktop\blog-ernSql> ^C
+PS C:\Users\Lipu\OneDrive\Desktop\blog-ernSql> node .\Config\database.js
+[
+  [
+    {
+      id: 1,
+      title: 'How to create a table in SQL',
+      content: 'In this blog post, I will show you how to create a table in SQL using the CREATE TABLE statement. You will learn how to define columns, data types, constraints, and other table properties.',      
+      thumbsup: 12,
+      created_at: 2023-06-22T07:49:13.000Z
+    },
+    {
+      id: 2,
+      title: 'Why arrays are not a good choice for storing relational data',
+      content: 'In this blog post, I will explain why arrays are not a good choice for storing relational 
+data in SQL. You will learn about the drawbacks of arrays and the benefits of using separate tables and foreign keys.',
+      thumbsup: 8,
+      created_at: 2023-06-22T07:49:13.000Z
+    },
+    {
+      id: 3,
+      title: 'How to use array functions in SQL',
+      content: 'In this blog post, I will demonstrate how to use array functions in SQL to manipulate and 
+query array values. You will learn how to create, access, modify, and search arrays using various functions and operators.',
+      thumbsup: 5,
+      created_at: 2023-06-22T07:49:13.000Z
+    }
+  ],
+  [
+    ColumnDefinition {
+      _buf: <Buffer 01 00 00 01 05 28 00 00 02 03 64 65 66 06 62 6c 6f 67 64 62 04 62 6c 6f 67 04 62 6c 6f 67 02 69 64 02 69 64 0c 3f 00 0b 00 00 00 03 03 42 00 00 00 2e ... 1056 more bytes>,
+      _clientEncoding: 'utf8',
+      _catalogLength: 3,
+      _catalogStart: 10,
+      _schemaLength: 6,
+      _schemaStart: 14,
+      _tableLength: 4,
+      _tableStart: 21,
+      _orgTableLength: 4,
+      _orgTableStart: 26,
+      _orgNameLength: 2,
+      _orgNameStart: 34,
+      characterSet: 63,
+      encoding: 'binary',
+      name: 'id',
+      columnLength: 11,
+      columnType: 3,
+      type: 3,
+      flags: 16899,
+      decimals: 0
+    },
+    ColumnDefinition {
+      _buf: <Buffer 01 00 00 01 05 28 00 00 02 03 64 65 66 06 62 6c 6f 67 64 62 04 62 6c 6f 67 04 62 6c 6f 67 02 69 64 02 69 64 0c 3f 00 0b 00 00 00 03 03 42 00 00 00 2e ... 1056 more bytes>,
+      _clientEncoding: 'utf8',
+      _catalogLength: 3,
+      _catalogStart: 54,
+      _schemaLength: 6,
+      _schemaStart: 58,
+      _tableLength: 4,
+      _tableStart: 65,
+      _orgTableLength: 4,
+      _orgTableStart: 70,
+      _orgNameLength: 5,
+      _orgNameStart: 81,
+      characterSet: 224,
+      encoding: 'utf8',
+      name: 'title',
+      columnLength: 400,
+      columnType: 253,
+      type: 253,
+      flags: 4097,
+      decimals: 0
+    },
+    ColumnDefinition {
+      _buf: <Buffer 01 00 00 01 05 28 00 00 02 03 64 65 66 06 62 6c 6f 67 64 62 04 62 6c 6f 67 04 62 6c 6f 67 02 69 64 02 69 64 0c 3f 00 0b 00 00 00 03 03 42 00 00 00 2e ... 1056 more bytes>,
+      _clientEncoding: 'utf8',
+      _catalogLength: 3,
+      _catalogStart: 104,
+      _schemaLength: 6,
+      _schemaStart: 108,
+      _tableLength: 4,
+      _tableStart: 115,
+      _orgTableLength: 4,
+      _orgTableStart: 120,
+      _orgNameLength: 7,
+      _orgNameStart: 133,
+      characterSet: 224,
+      encoding: 'utf8',
+      name: 'content',
+      columnLength: 10000,
+      columnType: 253,
+      type: 253,
+      flags: 4097,
+      decimals: 0
+    },
+    ColumnDefinition {
+      _buf: <Buffer 01 00 00 01 05 28 00 00 02 03 64 65 66 06 62 6c 6f 67 64 62 04 62 6c 6f 67 04 62 6c 6f 67 02 69 64 02 69 64 0c 3f 00 0b 00 00 00 03 03 42 00 00 00 2e ... 1056 more bytes>,
+      _clientEncoding: 'utf8',
+      _catalogLength: 3,
+      _catalogStart: 158,
+      _schemaLength: 6,
+      _schemaStart: 162,
+      _tableLength: 4,
+      _tableStart: 169,
+      _orgTableLength: 4,
+      _orgTableStart: 174,
+      _orgNameLength: 8,
+      _orgNameStart: 188,
+      characterSet: 63,
+      encoding: 'binary',
+      name: 'thumbsup',
+      columnLength: 11,
+      columnType: 3,
+      type: 3,
+      flags: 0,
+      decimals: 0
+    },
+    ColumnDefinition {
+      _buf: <Buffer 01 00 00 01 05 28 00 00 02 03 64 65 66 06 62 6c 6f 67 64 62 04 62 6c 6f 67 04 62 6c 6f 67 02 69 64 02 69 64 0c 3f 00 0b 00 00 00 03 03 42 00 00 00 2e ... 1056 more bytes>,
+      _clientEncoding: 'utf8',
+      _catalogLength: 3,
+      _catalogStart: 214,
+      _schemaLength: 6,
+      _schemaStart: 218,
+      _tableLength: 4,
+      _tableStart: 225,
+      _orgTableLength: 4,
+      _orgTableStart: 230,
+      _orgNameLength: 10,
+      _orgNameStart: 246,
+      characterSet: 63,
+      encoding: 'binary',
+      name: 'created_at',
+      columnLength: 19,
+      columnType: 7,
+      type: 7,
+      flags: 1152,
+      decimals: 0
+    }
+  ]
+]
